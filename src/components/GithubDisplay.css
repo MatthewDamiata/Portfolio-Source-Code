@@ -1,0 +1,27 @@
+
+.github-repos-content{
+  color: black;
+  font-family: 'Raleway', sans-serif !important;
+  -webkit-font-feature-settings: "lnum";
+  -moz-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
+}
+.github-repos-desc{
+  color: black;
+  font-family: 'Raleway', sans-serif !important;
+  -webkit-font-feature-settings: "lnum";
+  -moz-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
+}
+.github-repos-language-p{
+  color: black;
+  font-family: 'Raleway', sans-serif !important;
+  -webkit-font-feature-settings: "lnum";
+  -moz-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
+}
+
+.github-repos-ol{
+  margin-right: 0px;
+  margin-left: 0px;
+}

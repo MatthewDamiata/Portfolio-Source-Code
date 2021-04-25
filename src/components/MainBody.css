@@ -1,0 +1,23 @@
+
+h1{
+  font-family: 'Raleway', sans-serif !important;
+  -webkit-font-feature-settings: "lnum";
+  -moz-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
+  display: inline-block;
+  font-size: 35px;
+}
+
+h2{
+  font-family: 'Raleway', sans-serif !important;
+  -webkit-font-feature-settings: "lnum";
+  -moz-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
+  display: inline-block;
+  font-size: 25px;
+}
+
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}

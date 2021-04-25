@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  font-family: 'Raleway', sans-serif !important;
+  -webkit-font-feature-settings: "lnum";
+  -moz-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
+  font-size: 14px;
+  color: black;
+}
