@@ -1,38 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 .App {
+  -webkit-font-smoothing: antialiased;
   text-align: center;
+  font-family: 'Open Sans', sans-serif !important;
+  -webkit-font-feature-settings: "lnum";
+  -moz-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
+  font-size: 18px;
+  background-color: #d7d7d8;
+  background-image: linear-gradient(
+    295deg,
+    hsl(169deg 14% 85%) 0%,
+    hsl(176deg 16% 82%) 1%,
+    hsl(182deg 17% 79%) 3%,
+    hsl(188deg 20% 76%) 4%,
+    hsl(193deg 22% 73%) 6%,
+    hsl(197deg 24% 71%) 9%,
+    hsl(201deg 25% 69%) 11%,
+    hsl(205deg 25% 67%) 14%,
+    hsl(209deg 25% 67%) 18%,
+    hsl(212deg 27% 70%) 21%,
+    hsl(215deg 28% 73%) 25%,
+    hsl(219deg 30% 76%) 30%,
+    hsl(223deg 33% 79%) 34%,
+    hsl(228deg 35% 82%) 39%,
+    hsl(234deg 39% 86%) 44%,
+    hsl(242deg 45% 89%) 50%,
+    hsl(238deg 41% 87%) 56%,
+    hsl(230deg 36% 83%) 62%,
+    hsl(224deg 32% 79%) 68%,
+    hsl(218deg 30% 75%) 74%,
+    hsl(214deg 28% 70%) 80%,
+    hsl(210deg 26% 66%) 87%,
+    hsl(207deg 24% 62%) 93%,
+    hsl(204deg 22% 58%) 100%
+  );
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+  padding: 0px 10px 10px 10px;
 }

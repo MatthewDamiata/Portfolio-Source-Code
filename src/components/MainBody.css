@@ -1,0 +1,59 @@
+h1{
+  font-family: 'Open Sans', sans-serif !important;
+  -webkit-font-feature-settings: "lnum";
+  -moz-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
+  display: inline-block;
+  font-size: 35px;
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif !important;
+  -webkit-font-feature-settings: "lnum";
+  -moz-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
+  display: inline-block;
+  font-size: 25px;
+}
+
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.name {
+  padding: 10px 10px 10px 10px;
+  margin-top: 150px;
+  border-radius: 10px;
+  width:50vh;
+  height:10vh;
+  background:blue;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.MuiPaper-elevation1 {
+  box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 20%), 0px 0px 0px 0px rgb(0 0 0 / 14%), 0px 0px 0px 0px rgb(0 0 0 / 12%) !important;
+}
+
+.MuiPaper-rounded {
+  border-radius: 5px !important;
+}
+
+.MuiPaper-root {
+  margin-bottom: 10px;
+}
+
+.Carousel-indicators-2{
+  margin-top: 120px !important;
+}
+
+.jss2{
+  margin-top: 120px !important;
+}

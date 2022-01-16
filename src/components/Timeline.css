@@ -1,0 +1,26 @@
+.custom-line{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: bold;
+    -webkit-font-feature-settings: "lnum";
+    -moz-font-feature-settings: "lnum";
+    font-feature-settings: "lnum";
+}
+
+.custom-line:before {
+  background: black;
+}
+
+#onelink {
+  color: #007bff !important;
+}
+
+@media only screen and (min-width: 1170px){
+  .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+    width: 100%;
+    left: 85%;
+  }
+  .dates {
+    font-size: 18px !important;
+    color: black;
+  }
+}
